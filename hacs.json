@@ -1,0 +1,6 @@
+{
+  "name": "HA Historical Sensor Patch",
+  "content_in_root": false,
+  "filename": "custom_components/delorian",
+  "type": "integration"
+}
