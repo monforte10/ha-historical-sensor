@@ -1,6 +1,6 @@
 {
-  "domain": "delorian",
-  "name": "Delorian - Testing integration for historical sensors",
+  "domain": "ha-historical-sensor-patch",
+  "name": "historical",
   "codeowners": [
     "@ldotlopez"
   ],

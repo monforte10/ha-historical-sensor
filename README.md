@@ -55,7 +55,7 @@ See [https://github.com/ldotlopez/ha-historical-sensor/issues/18] for detailed e
 1. Import home_assistant_historical_sensor and define your sensor.
    _⚠️ **Don't** set the SensorEntity.state_class property. See FAQ below_
 ```python
-from homeassistant_historical_sensor import (
+from ha-historical-sensor-patch import (
     HistoricalSensor, HistoricalState, PollUpdateMixin,
 )
 
@@ -233,7 +233,7 @@ group_by_interval(states, granularity=3600)
 
 Groups historical states into time intervals (typically hourly) for statistics calculation:
 ```python
-from homeassistant_historical_sensor import group_by_interval
+from ha-historical-sensor-patch import group_by_interval
 
 for block_timestamp, states_in_hour in group_by_interval(
     hist_states, 

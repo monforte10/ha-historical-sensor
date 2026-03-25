@@ -54,7 +54,6 @@ def _stringify_state(self: Entity, state: Any) -> str:
         return f"{state:.{FLOAT_PRECISION}}"
     return str(state)
 
-
 # Code extracted and modified from
 # homeassistant.helpers.entity.Entity._async_generate_attributes
 # https://github.com/home-assistant/core/blob/dev/homeassistant/helpers/entity.py

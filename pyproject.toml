@@ -40,13 +40,13 @@ target-version = ['py313']
 profile = "black"
 
 [tool.mypy]
-files = ['homeassistant_historical_sensor']
+files = ['ha-historical-sensor-patch']
 
 [tool.pyupgrade]
 addopts = "--py313-plus"
 
 [tool.setuptools]
-packages = ["homeassistant_historical_sensor"]
+packages = ["ha-historical-sensor-patch"]
 
 [dependency-groups]
 dev = [

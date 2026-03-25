@@ -3,5 +3,5 @@ default_config:
 logger:
   default: warning
   logs:
-    homeassistant_historical_sensor: debug
+    ha-historical-sensor-patch: debug
     custom_components.delorian: debug
